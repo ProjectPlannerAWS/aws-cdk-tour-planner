@@ -21,9 +21,6 @@ jobs:
       - name: Install CDK
         run: npm install -g aws-cdk
 
-      - name: Run CDK Command
-        run: cdk <your-command-here>
-
       - name: Install CDK dependencies
         run: pip install -r requirements.txt
 
