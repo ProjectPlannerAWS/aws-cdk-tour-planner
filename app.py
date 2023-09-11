@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-import os
-
 import aws_cdk as cdk
 
-from aws_cdk_tour_planner.aws_cdk_tour_planner_stack import AwsCdkTourPlannerStack
+from src.aws_cdk_tour_planner_stack import AwsCdkTourPlannerStack
 
 
 app = cdk.App()
